@@ -1,6 +1,10 @@
+html{
+    background:radial-gradient(blue, black);
+}
+
 body {
-    background-color:white;
-    color:black;
+    /*background-color:white;*/
+    color:white;
     transition: opacity 3s;
      -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 3s; /* Firefox < 16 */
@@ -60,7 +64,7 @@ nav a {
         padding-bottom:4px;
         font-size: 1.2em;
         text-decoration: none; /*removes underline*/
-        color:black;
+        color:white;
     }
 nav a:hover { /*pseudo class*/
     border-bottom:2px blue solid; 
