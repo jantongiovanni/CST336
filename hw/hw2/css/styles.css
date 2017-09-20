@@ -1,0 +1,24 @@
+html{
+     background:black
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+h1{
+    float:right;
+    font-size: 60px;
+}
+
+#xbox{
+    float:left;
+}
+
+#main{
+    font-size: 35px;
+    /*margin-left:50px;
+    margin-top: 200px;
+    */
+    width:600px;
+    margin: 0 auto;
+}

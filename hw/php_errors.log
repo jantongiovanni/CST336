@@ -1,0 +1,54 @@
+[20-Sep-2017 02:36:05 UTC] PHP Warning:  mt_rand(): max(-1) is smaller than min(0) in /home/ubuntu/workspace/CST336/hw/hw2/functions.php on line 53
+[20-Sep-2017 02:36:05 UTC] PHP Stack trace:
+[20-Sep-2017 02:36:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/index.php:0
+[20-Sep-2017 02:36:05 UTC] PHP   2. name() /home/ubuntu/workspace/CST336/hw/hw2/index.php:18
+[20-Sep-2017 02:36:05 UTC] PHP   3. mt_rand() /home/ubuntu/workspace/CST336/hw/hw2/functions.php:53
+[20-Sep-2017 02:36:05 UTC] PHP Warning:  mt_rand(): max(-1) is smaller than min(0) in /home/ubuntu/workspace/CST336/hw/hw2/functions.php on line 55
+[20-Sep-2017 02:36:05 UTC] PHP Stack trace:
+[20-Sep-2017 02:36:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/index.php:0
+[20-Sep-2017 02:36:05 UTC] PHP   2. name() /home/ubuntu/workspace/CST336/hw/hw2/index.php:18
+[20-Sep-2017 02:36:05 UTC] PHP   3. mt_rand() /home/ubuntu/workspace/CST336/hw/hw2/functions.php:55
+[20-Sep-2017 02:37:49 UTC] PHP Warning:  Missing argument 1 for name(), called in /home/ubuntu/workspace/CST336/hw/hw2/index.php on line 18 and defined in /home/ubuntu/workspace/CST336/hw/hw2/functions.php on line 56
+[20-Sep-2017 02:37:49 UTC] PHP Stack trace:
+[20-Sep-2017 02:37:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/index.php:0
+[20-Sep-2017 02:37:49 UTC] PHP   2. name() /home/ubuntu/workspace/CST336/hw/hw2/index.php:18
+[20-Sep-2017 02:37:49 UTC] PHP Warning:  Missing argument 2 for name(), called in /home/ubuntu/workspace/CST336/hw/hw2/index.php on line 18 and defined in /home/ubuntu/workspace/CST336/hw/hw2/functions.php on line 56
+[20-Sep-2017 02:37:49 UTC] PHP Stack trace:
+[20-Sep-2017 02:37:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/index.php:0
+[20-Sep-2017 02:37:49 UTC] PHP   2. name() /home/ubuntu/workspace/CST336/hw/hw2/index.php:18
+[20-Sep-2017 03:09:13 UTC] PHP Warning:  mt_rand(): max(-1) is smaller than min(0) in /home/ubuntu/workspace/CST336/hw/hw2/functions.php on line 57
+[20-Sep-2017 03:09:13 UTC] PHP Stack trace:
+[20-Sep-2017 03:09:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/index.php:0
+[20-Sep-2017 03:09:13 UTC] PHP   2. name() /home/ubuntu/workspace/CST336/hw/hw2/index.php:24
+[20-Sep-2017 03:09:13 UTC] PHP   3. gen() /home/ubuntu/workspace/CST336/hw/hw2/functions.php:69
+[20-Sep-2017 03:09:13 UTC] PHP   4. mt_rand() /home/ubuntu/workspace/CST336/hw/hw2/functions.php:57
+[20-Sep-2017 03:09:13 UTC] PHP Warning:  mt_rand(): max(-1) is smaller than min(0) in /home/ubuntu/workspace/CST336/hw/hw2/functions.php on line 59
+[20-Sep-2017 03:09:13 UTC] PHP Stack trace:
+[20-Sep-2017 03:09:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/index.php:0
+[20-Sep-2017 03:09:13 UTC] PHP   2. name() /home/ubuntu/workspace/CST336/hw/hw2/index.php:24
+[20-Sep-2017 03:09:13 UTC] PHP   3. gen() /home/ubuntu/workspace/CST336/hw/hw2/functions.php:69
+[20-Sep-2017 03:09:13 UTC] PHP   4. mt_rand() /home/ubuntu/workspace/CST336/hw/hw2/functions.php:59
+[20-Sep-2017 03:09:13 UTC] PHP Warning:  mt_rand(): max(-1) is smaller than min(0) in /home/ubuntu/workspace/CST336/hw/hw2/functions.php on line 57
+[20-Sep-2017 03:09:13 UTC] PHP Stack trace:
+[20-Sep-2017 03:09:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/index.php:0
+[20-Sep-2017 03:09:13 UTC] PHP   2. name() /home/ubuntu/workspace/CST336/hw/hw2/index.php:24
+[20-Sep-2017 03:09:13 UTC] PHP   3. gen() /home/ubuntu/workspace/CST336/hw/hw2/functions.php:69
+[20-Sep-2017 03:09:13 UTC] PHP   4. mt_rand() /home/ubuntu/workspace/CST336/hw/hw2/functions.php:57
+[20-Sep-2017 03:09:13 UTC] PHP Warning:  mt_rand(): max(-1) is smaller than min(0) in /home/ubuntu/workspace/CST336/hw/hw2/functions.php on line 59
+[20-Sep-2017 03:09:13 UTC] PHP Stack trace:
+[20-Sep-2017 03:09:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/index.php:0
+[20-Sep-2017 03:09:13 UTC] PHP   2. name() /home/ubuntu/workspace/CST336/hw/hw2/index.php:24
+[20-Sep-2017 03:09:13 UTC] PHP   3. gen() /home/ubuntu/workspace/CST336/hw/hw2/functions.php:69
+[20-Sep-2017 03:09:13 UTC] PHP   4. mt_rand() /home/ubuntu/workspace/CST336/hw/hw2/functions.php:59
+[20-Sep-2017 03:09:13 UTC] PHP Warning:  mt_rand(): max(-1) is smaller than min(0) in /home/ubuntu/workspace/CST336/hw/hw2/functions.php on line 57
+[20-Sep-2017 03:09:13 UTC] PHP Stack trace:
+[20-Sep-2017 03:09:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/index.php:0
+[20-Sep-2017 03:09:13 UTC] PHP   2. name() /home/ubuntu/workspace/CST336/hw/hw2/index.php:24
+[20-Sep-2017 03:09:13 UTC] PHP   3. gen() /home/ubuntu/workspace/CST336/hw/hw2/functions.php:69
+[20-Sep-2017 03:09:13 UTC] PHP   4. mt_rand() /home/ubuntu/workspace/CST336/hw/hw2/functions.php:57
+[20-Sep-2017 03:09:13 UTC] PHP Warning:  mt_rand(): max(-1) is smaller than min(0) in /home/ubuntu/workspace/CST336/hw/hw2/functions.php on line 59
+[20-Sep-2017 03:09:13 UTC] PHP Stack trace:
+[20-Sep-2017 03:09:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/index.php:0
+[20-Sep-2017 03:09:13 UTC] PHP   2. name() /home/ubuntu/workspace/CST336/hw/hw2/index.php:24
+[20-Sep-2017 03:09:13 UTC] PHP   3. gen() /home/ubuntu/workspace/CST336/hw/hw2/functions.php:69
+[20-Sep-2017 03:09:13 UTC] PHP   4. mt_rand() /home/ubuntu/workspace/CST336/hw/hw2/functions.php:59

@@ -1,0 +1,16 @@
+[08-Sep-2017 20:42:39 UTC] PHP Fatal error:  Call to undefined function getCard() in /home/ubuntu/workspace/CST336/challenge/randomCard/randomCard.php on line 13
+[08-Sep-2017 20:42:39 UTC] PHP Stack trace:
+[08-Sep-2017 20:42:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/challenge/randomCard/randomCard.php:0
+[08-Sep-2017 20:44:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/CST336/challenge/randomCard/functions.php on line 42
+[08-Sep-2017 20:44:11 UTC] PHP Stack trace:
+[08-Sep-2017 20:44:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/challenge/randomCard/randomCard.php:0
+[08-Sep-2017 20:44:32 UTC] PHP Fatal error:  Call to undefined function displayPoints() in /home/ubuntu/workspace/CST336/challenge/randomCard/functions.php on line 10
+[08-Sep-2017 20:44:32 UTC] PHP Stack trace:
+[08-Sep-2017 20:44:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/challenge/randomCard/randomCard.php:0
+[08-Sep-2017 20:44:32 UTC] PHP   2. getCard() /home/ubuntu/workspace/CST336/challenge/randomCard/randomCard.php:16
+[08-Sep-2017 20:50:14 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/ubuntu/workspace/CST336/challenge/randomCard/functions.php on line 58
+[08-Sep-2017 20:50:14 UTC] PHP Stack trace:
+[08-Sep-2017 20:50:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/challenge/randomCard/randomCard.php:0
+[08-Sep-2017 20:50:19 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/ubuntu/workspace/CST336/challenge/randomCard/functions.php on line 58
+[08-Sep-2017 20:50:19 UTC] PHP Stack trace:
+[08-Sep-2017 20:50:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/challenge/randomCard/randomCard.php:0

@@ -26,13 +26,20 @@
         if($randomValue1 == $randomValue2 && $randomValue2 == $randomValue3){
             switch ($randomValue1){
                 case 0: $totalPoints = 1000;
+                        playSound();
                          echo "<h1>Jackpot!</h1>";
                          break;
                 case 1: $totalPoints = 500;
+                                        playSound();
+
                         break;
                 case 2: $totalPoints = 250;
+                                        playSound();
+
                         break;
                 case 3: $totalPoints = 900;
+                                        playSound();
+
                         break;
             }
             echo "<h2>You won $totalPoints points! </h2>";
@@ -50,6 +57,9 @@
         displayPoints($randomValue1, $randomValue2, $randomValue3);
     }    
         
-        
+     $audio = "cashtill.wav";
+     function playSound(){
+         echo $cashtill;
+     }
         
 ?>
