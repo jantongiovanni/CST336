@@ -59,9 +59,13 @@ $second = array(
 function gen($first, $second){
 $random_first = $first[mt_rand(0, sizeof($first)-1)];
 $random_second = $second[mt_rand(0, sizeof($second)-1)];
+$random_flare = $flare[my_rand(0,sizeof($flare)-1)];
 
-if(rand(0,9)<7)
+if(rand(0,9)<7){
 echo $random_first .'_'. $random_second;
+    if(rand(0,9)<3)
+    echo $random_flare;
+}
 else
 echo 'xX'.$random_first.'_'.$random_second.'Xx';
 

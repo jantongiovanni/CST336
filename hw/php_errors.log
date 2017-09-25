@@ -52,3 +52,24 @@
 [20-Sep-2017 03:09:13 UTC] PHP   2. name() /home/ubuntu/workspace/CST336/hw/hw2/index.php:24
 [20-Sep-2017 03:09:13 UTC] PHP   3. gen() /home/ubuntu/workspace/CST336/hw/hw2/functions.php:69
 [20-Sep-2017 03:09:13 UTC] PHP   4. mt_rand() /home/ubuntu/workspace/CST336/hw/hw2/functions.php:59
+[20-Sep-2017 19:42:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/hw/hw2/functions.php on line 89
+[21-Sep-2017 05:50:29 UTC] PHP Fatal error:  Call to undefined function my_rand() in /home/ubuntu/workspace/CST336/hw/hw2/functions.php on line 62
+[21-Sep-2017 05:50:29 UTC] PHP Stack trace:
+[21-Sep-2017 05:50:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/index.php:0
+[21-Sep-2017 05:50:29 UTC] PHP   2. name() /home/ubuntu/workspace/CST336/hw/hw2/index.php:24
+[21-Sep-2017 05:50:29 UTC] PHP   3. gen() /home/ubuntu/workspace/CST336/hw/hw2/functions.php:84
+[21-Sep-2017 05:50:30 UTC] PHP Fatal error:  Call to undefined function my_rand() in /home/ubuntu/workspace/CST336/hw/hw2/functions.php on line 62
+[21-Sep-2017 05:50:30 UTC] PHP Stack trace:
+[21-Sep-2017 05:50:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/index.php:0
+[21-Sep-2017 05:50:30 UTC] PHP   2. name() /home/ubuntu/workspace/CST336/hw/hw2/index.php:24
+[21-Sep-2017 05:50:30 UTC] PHP   3. gen() /home/ubuntu/workspace/CST336/hw/hw2/functions.php:84
+[21-Sep-2017 05:50:31 UTC] PHP Fatal error:  Call to undefined function my_rand() in /home/ubuntu/workspace/CST336/hw/hw2/functions.php on line 62
+[21-Sep-2017 05:50:31 UTC] PHP Stack trace:
+[21-Sep-2017 05:50:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/index.php:0
+[21-Sep-2017 05:50:31 UTC] PHP   2. name() /home/ubuntu/workspace/CST336/hw/hw2/index.php:24
+[21-Sep-2017 05:50:31 UTC] PHP   3. gen() /home/ubuntu/workspace/CST336/hw/hw2/functions.php:84
+[21-Sep-2017 05:50:33 UTC] PHP Fatal error:  Call to undefined function my_rand() in /home/ubuntu/workspace/CST336/hw/hw2/functions.php on line 62
+[21-Sep-2017 05:50:33 UTC] PHP Stack trace:
+[21-Sep-2017 05:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/index.php:0
+[21-Sep-2017 05:50:33 UTC] PHP   2. name() /home/ubuntu/workspace/CST336/hw/hw2/index.php:24
+[21-Sep-2017 05:50:33 UTC] PHP   3. gen() /home/ubuntu/workspace/CST336/hw/hw2/functions.php:84
