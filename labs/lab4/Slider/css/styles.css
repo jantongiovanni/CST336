@@ -2,12 +2,15 @@
         opacity:0.9;
         width:100%;
         text-align:center;
-        color:yellow;
+        color:  #008B8B;
+        
+  
     }
     
     input {
         font-size: 3em;
-        color: black;
+        color:  #008B8B;
+        border-radius: 15px;
     }
     
     #carousel-example-generic {

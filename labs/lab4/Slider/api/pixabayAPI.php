@@ -4,7 +4,10 @@
 function getImageURLs($keyword, $orientation="horizontal") {
     $curl = curl_init();
     curl_setopt_array($curl, array(
-      CURLOPT_URL => "https://pixabay.com/api/?key=6500353-ca879b9d6ea010459b0b4751b&q=$keyword&image_type=photo&orientation=$orientation&safesearch=true&per_page=100",
+           CURLOPT_URL => "https://pixabay.com/api/?key=6500353-ca879b9d6ea010459b0b4751b&q=$keyword&image_type=photo&orientation=$orientation&safesearch=true&per_page=100",
+
+    
+      //CURLOPT_URL =>  "https://api.walmartlabs.com/v1/search?apiKey=f5gxmkzbaedzwbpzuk2ntywy&query=$keyword&categoryId=3944&sort=price&ord=des",
       CURLOPT_RETURNTRANSFER => true,
       CURLOPT_TIMEOUT => 30,
       CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
@@ -17,14 +20,22 @@ function getImageURLs($keyword, $orientation="horizontal") {
     $jsonData = curl_exec($curl);
     $data = json_decode($jsonData, true); //true makes it an array!
     
+    
+    
     $imageURLs = array();
     for ($i = 0; $i < 99; $i++) {
-    $imageURLs[] = $data['hits'][$i]['webformatURL'];
+      $imageURLs[] = $data['hits'][$i]['webformatURL'];
     }
     $err = curl_error($curl);
     curl_close($curl);
     
+   // print_r($imageURLs);
     return $imageURLs;
 }
 
+
+//getImageURLs("ipad");
 ?>
+
+
+
