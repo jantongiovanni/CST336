@@ -1,42 +1,25 @@
 <?php
 
     $backgroundImage = "img/sea.jpg";
-
     if(isset($_GET['keyword'])) {
-     
-     //  echo "Keyword typed: " . $_GET['keyword'];
-        
         include 'api/pixabayAPI.php';
-        
         $keyword = $_GET['keyword'];
-        
         if (!empty($_GET['category'])) {  //User selected a category
-             
             $keyword = $_GET['category'];
         }
-        
         if (isset($_GET['layout'])) {
-            
             $imageURLs = getImageURLs($keyword, $_GET['layout']);
         } else {
-        
             $imageURLs = getImageURLs($keyword);
         }
-        
-        
         $backgroundImage = $imageURLs[array_rand($imageURLs)];
     }
     
     function checkIfSelected($option) {
-        
         if ($option == $_GET['category']) {
-            
             return "selected";
-            
         }
-        
     }
-    
 ?>
 
 <!DOCTYPE html>
@@ -47,7 +30,6 @@
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <style>
             @import url("css/styles.css");
-            
             body {
                 background-image: url(<?=$backgroundImage?>);
                 background-repeat: no-repeat;
@@ -57,20 +39,16 @@
     </head>
     <body>
         <br>
-        
          <form>
             <input type="text" name="keyword" placeholder="keyword" value="<?=$_GET['keyword']?>"/>
-            
             <input type="radio" id="lhorizontal" name="layout" value="horizontal" <?= ($_GET['layout']=='horizontal')?"checked":""  ?> >
             <label for="lhorizontal"> Horizontal </label>
-            
             <input type="radio" id="lvertical" name="layout" value="vertical" 
             
              <?php
                 if ($_GET['layout']=="vertical") {
                     echo "checked";
                 }
-             
              ?>
             
             >
@@ -86,10 +64,7 @@
             
             <input type="submit" value="Search"/>
         </form>
-        
-        
         <br /><br />
-        
         <?php
             if(!isset($_GET['keyword'])) {  //form has not been submitted
                 echo "<h2>Type a keyword to display a slideshow with random images from Pixabay.com</h2>";
@@ -100,12 +75,7 @@
                         echo "<h2 style='color:red'> Error! You must enter a keyword or category </h2>";
                         return;
                         exit;
-            
                  }
-                
-                
-                
-                
         ?>
         
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">

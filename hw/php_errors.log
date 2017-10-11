@@ -73,3 +73,358 @@
 [21-Sep-2017 05:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw2/index.php:0
 [21-Sep-2017 05:50:33 UTC] PHP   2. name() /home/ubuntu/workspace/CST336/hw/hw2/index.php:24
 [21-Sep-2017 05:50:33 UTC] PHP   3. gen() /home/ubuntu/workspace/CST336/hw/hw2/functions.php:84
+[11-Oct-2017 03:23:52 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 27
+[11-Oct-2017 03:23:52 UTC] PHP Stack trace:
+[11-Oct-2017 03:23:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 03:23:52 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:27
+[11-Oct-2017 03:29:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 27
+[11-Oct-2017 03:29:35 UTC] PHP Stack trace:
+[11-Oct-2017 03:29:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 03:29:35 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:27
+[11-Oct-2017 03:31:54 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 26
+[11-Oct-2017 03:31:54 UTC] PHP Stack trace:
+[11-Oct-2017 03:31:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 03:31:54 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:26
+[11-Oct-2017 03:31:54 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 30
+[11-Oct-2017 03:31:54 UTC] PHP Stack trace:
+[11-Oct-2017 03:31:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 03:31:54 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:30
+[11-Oct-2017 03:50:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 26
+[11-Oct-2017 03:50:46 UTC] PHP Stack trace:
+[11-Oct-2017 03:50:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 03:50:46 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:26
+[11-Oct-2017 03:50:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 30
+[11-Oct-2017 03:50:46 UTC] PHP Stack trace:
+[11-Oct-2017 03:50:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 03:50:46 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:30
+[11-Oct-2017 08:32:15 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 61
+[11-Oct-2017 08:32:50 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 61
+[11-Oct-2017 08:33:27 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 61
+[11-Oct-2017 08:33:38 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 61
+[11-Oct-2017 08:34:52 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 61
+[11-Oct-2017 08:35:38 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 61
+[11-Oct-2017 08:36:32 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 61
+[11-Oct-2017 16:11:50 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 71
+[11-Oct-2017 16:11:53 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 71
+[11-Oct-2017 16:24:31 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 72
+[11-Oct-2017 16:24:31 UTC] PHP Stack trace:
+[11-Oct-2017 16:24:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:24:31 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:72
+[11-Oct-2017 16:24:31 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 74
+[11-Oct-2017 16:24:31 UTC] PHP Stack trace:
+[11-Oct-2017 16:24:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:24:31 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:74
+[11-Oct-2017 16:24:31 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 76
+[11-Oct-2017 16:24:31 UTC] PHP Stack trace:
+[11-Oct-2017 16:24:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:24:31 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:76
+[11-Oct-2017 16:24:31 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 78
+[11-Oct-2017 16:24:31 UTC] PHP Stack trace:
+[11-Oct-2017 16:24:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:24:31 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:78
+[11-Oct-2017 16:24:31 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 80
+[11-Oct-2017 16:24:31 UTC] PHP Stack trace:
+[11-Oct-2017 16:24:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:24:31 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:80
+[11-Oct-2017 16:27:11 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 70
+[11-Oct-2017 16:27:11 UTC] PHP Stack trace:
+[11-Oct-2017 16:27:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:27:11 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:70
+[11-Oct-2017 16:27:11 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 72
+[11-Oct-2017 16:27:11 UTC] PHP Stack trace:
+[11-Oct-2017 16:27:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:27:11 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:72
+[11-Oct-2017 16:27:11 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 74
+[11-Oct-2017 16:27:11 UTC] PHP Stack trace:
+[11-Oct-2017 16:27:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:27:11 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:74
+[11-Oct-2017 16:27:11 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 76
+[11-Oct-2017 16:27:11 UTC] PHP Stack trace:
+[11-Oct-2017 16:27:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:27:11 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:76
+[11-Oct-2017 16:27:11 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 78
+[11-Oct-2017 16:27:11 UTC] PHP Stack trace:
+[11-Oct-2017 16:27:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:27:11 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:78
+[11-Oct-2017 16:27:15 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 70
+[11-Oct-2017 16:27:15 UTC] PHP Stack trace:
+[11-Oct-2017 16:27:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:27:15 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:70
+[11-Oct-2017 16:27:15 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 72
+[11-Oct-2017 16:27:15 UTC] PHP Stack trace:
+[11-Oct-2017 16:27:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:27:15 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:72
+[11-Oct-2017 16:27:15 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 74
+[11-Oct-2017 16:27:15 UTC] PHP Stack trace:
+[11-Oct-2017 16:27:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:27:15 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:74
+[11-Oct-2017 16:27:15 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 76
+[11-Oct-2017 16:27:15 UTC] PHP Stack trace:
+[11-Oct-2017 16:27:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:27:15 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:76
+[11-Oct-2017 16:27:15 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 78
+[11-Oct-2017 16:27:15 UTC] PHP Stack trace:
+[11-Oct-2017 16:27:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:27:15 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:78
+[11-Oct-2017 16:27:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 70
+[11-Oct-2017 16:27:49 UTC] PHP Stack trace:
+[11-Oct-2017 16:27:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:27:49 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:70
+[11-Oct-2017 16:27:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 72
+[11-Oct-2017 16:27:49 UTC] PHP Stack trace:
+[11-Oct-2017 16:27:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:27:49 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:72
+[11-Oct-2017 16:27:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 74
+[11-Oct-2017 16:27:49 UTC] PHP Stack trace:
+[11-Oct-2017 16:27:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:27:49 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:74
+[11-Oct-2017 16:27:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 76
+[11-Oct-2017 16:27:49 UTC] PHP Stack trace:
+[11-Oct-2017 16:27:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:27:49 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:76
+[11-Oct-2017 16:27:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 78
+[11-Oct-2017 16:27:49 UTC] PHP Stack trace:
+[11-Oct-2017 16:27:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:27:49 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:78
+[11-Oct-2017 16:27:59 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 70
+[11-Oct-2017 16:27:59 UTC] PHP Stack trace:
+[11-Oct-2017 16:27:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:27:59 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:70
+[11-Oct-2017 16:27:59 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 72
+[11-Oct-2017 16:27:59 UTC] PHP Stack trace:
+[11-Oct-2017 16:27:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:27:59 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:72
+[11-Oct-2017 16:27:59 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 74
+[11-Oct-2017 16:27:59 UTC] PHP Stack trace:
+[11-Oct-2017 16:27:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:27:59 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:74
+[11-Oct-2017 16:27:59 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 76
+[11-Oct-2017 16:27:59 UTC] PHP Stack trace:
+[11-Oct-2017 16:27:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:27:59 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:76
+[11-Oct-2017 16:27:59 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 78
+[11-Oct-2017 16:27:59 UTC] PHP Stack trace:
+[11-Oct-2017 16:27:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 16:27:59 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:78
+[11-Oct-2017 17:03:33 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 80
+[11-Oct-2017 17:03:33 UTC] PHP Stack trace:
+[11-Oct-2017 17:03:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:03:33 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:80
+[11-Oct-2017 17:03:33 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 82
+[11-Oct-2017 17:03:33 UTC] PHP Stack trace:
+[11-Oct-2017 17:03:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:03:33 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:82
+[11-Oct-2017 17:03:33 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 84
+[11-Oct-2017 17:03:33 UTC] PHP Stack trace:
+[11-Oct-2017 17:03:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:03:33 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:84
+[11-Oct-2017 17:03:33 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 86
+[11-Oct-2017 17:03:33 UTC] PHP Stack trace:
+[11-Oct-2017 17:03:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:03:33 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:86
+[11-Oct-2017 17:03:33 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 88
+[11-Oct-2017 17:03:33 UTC] PHP Stack trace:
+[11-Oct-2017 17:03:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:03:33 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:88
+[11-Oct-2017 17:03:40 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 80
+[11-Oct-2017 17:03:40 UTC] PHP Stack trace:
+[11-Oct-2017 17:03:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:03:40 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:80
+[11-Oct-2017 17:03:40 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 82
+[11-Oct-2017 17:03:40 UTC] PHP Stack trace:
+[11-Oct-2017 17:03:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:03:40 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:82
+[11-Oct-2017 17:03:40 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 84
+[11-Oct-2017 17:03:40 UTC] PHP Stack trace:
+[11-Oct-2017 17:03:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:03:40 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:84
+[11-Oct-2017 17:03:40 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 86
+[11-Oct-2017 17:03:40 UTC] PHP Stack trace:
+[11-Oct-2017 17:03:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:03:40 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:86
+[11-Oct-2017 17:03:40 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 88
+[11-Oct-2017 17:03:40 UTC] PHP Stack trace:
+[11-Oct-2017 17:03:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:03:40 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:88
+[11-Oct-2017 17:03:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 80
+[11-Oct-2017 17:03:46 UTC] PHP Stack trace:
+[11-Oct-2017 17:03:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:03:46 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:80
+[11-Oct-2017 17:03:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 82
+[11-Oct-2017 17:03:46 UTC] PHP Stack trace:
+[11-Oct-2017 17:03:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:03:46 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:82
+[11-Oct-2017 17:03:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 84
+[11-Oct-2017 17:03:46 UTC] PHP Stack trace:
+[11-Oct-2017 17:03:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:03:46 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:84
+[11-Oct-2017 17:03:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 86
+[11-Oct-2017 17:03:46 UTC] PHP Stack trace:
+[11-Oct-2017 17:03:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:03:46 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:86
+[11-Oct-2017 17:03:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 88
+[11-Oct-2017 17:03:46 UTC] PHP Stack trace:
+[11-Oct-2017 17:03:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:03:46 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:88
+[11-Oct-2017 17:03:55 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 80
+[11-Oct-2017 17:03:55 UTC] PHP Stack trace:
+[11-Oct-2017 17:03:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:03:55 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:80
+[11-Oct-2017 17:03:55 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 82
+[11-Oct-2017 17:03:55 UTC] PHP Stack trace:
+[11-Oct-2017 17:03:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:03:55 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:82
+[11-Oct-2017 17:03:55 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 84
+[11-Oct-2017 17:03:55 UTC] PHP Stack trace:
+[11-Oct-2017 17:03:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:03:55 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:84
+[11-Oct-2017 17:03:55 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 86
+[11-Oct-2017 17:03:55 UTC] PHP Stack trace:
+[11-Oct-2017 17:03:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:03:55 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:86
+[11-Oct-2017 17:03:55 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 88
+[11-Oct-2017 17:03:55 UTC] PHP Stack trace:
+[11-Oct-2017 17:03:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:03:55 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:88
+[11-Oct-2017 17:04:03 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 80
+[11-Oct-2017 17:04:03 UTC] PHP Stack trace:
+[11-Oct-2017 17:04:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:04:03 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:80
+[11-Oct-2017 17:04:03 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 82
+[11-Oct-2017 17:04:03 UTC] PHP Stack trace:
+[11-Oct-2017 17:04:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:04:03 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:82
+[11-Oct-2017 17:04:03 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 84
+[11-Oct-2017 17:04:03 UTC] PHP Stack trace:
+[11-Oct-2017 17:04:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:04:03 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:84
+[11-Oct-2017 17:04:03 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 86
+[11-Oct-2017 17:04:03 UTC] PHP Stack trace:
+[11-Oct-2017 17:04:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:04:03 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:86
+[11-Oct-2017 17:04:03 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 88
+[11-Oct-2017 17:04:03 UTC] PHP Stack trace:
+[11-Oct-2017 17:04:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:04:03 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:88
+[11-Oct-2017 17:04:06 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 80
+[11-Oct-2017 17:04:06 UTC] PHP Stack trace:
+[11-Oct-2017 17:04:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:04:06 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:80
+[11-Oct-2017 17:04:06 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 82
+[11-Oct-2017 17:04:06 UTC] PHP Stack trace:
+[11-Oct-2017 17:04:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:04:06 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:82
+[11-Oct-2017 17:04:06 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 84
+[11-Oct-2017 17:04:06 UTC] PHP Stack trace:
+[11-Oct-2017 17:04:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:04:06 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:84
+[11-Oct-2017 17:04:06 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 86
+[11-Oct-2017 17:04:06 UTC] PHP Stack trace:
+[11-Oct-2017 17:04:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:04:06 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:86
+[11-Oct-2017 17:04:06 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 88
+[11-Oct-2017 17:04:06 UTC] PHP Stack trace:
+[11-Oct-2017 17:04:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:04:06 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:88
+[11-Oct-2017 17:04:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 80
+[11-Oct-2017 17:04:35 UTC] PHP Stack trace:
+[11-Oct-2017 17:04:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:04:35 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:80
+[11-Oct-2017 17:04:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 82
+[11-Oct-2017 17:04:35 UTC] PHP Stack trace:
+[11-Oct-2017 17:04:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:04:35 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:82
+[11-Oct-2017 17:04:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 84
+[11-Oct-2017 17:04:35 UTC] PHP Stack trace:
+[11-Oct-2017 17:04:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:04:35 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:84
+[11-Oct-2017 17:04:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 86
+[11-Oct-2017 17:04:35 UTC] PHP Stack trace:
+[11-Oct-2017 17:04:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:04:35 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:86
+[11-Oct-2017 17:04:35 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 88
+[11-Oct-2017 17:04:35 UTC] PHP Stack trace:
+[11-Oct-2017 17:04:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:04:35 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:88
+[11-Oct-2017 17:04:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 80
+[11-Oct-2017 17:04:49 UTC] PHP Stack trace:
+[11-Oct-2017 17:04:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:04:49 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:80
+[11-Oct-2017 17:04:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 82
+[11-Oct-2017 17:04:49 UTC] PHP Stack trace:
+[11-Oct-2017 17:04:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:04:49 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:82
+[11-Oct-2017 17:04:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 84
+[11-Oct-2017 17:04:49 UTC] PHP Stack trace:
+[11-Oct-2017 17:04:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:04:49 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:84
+[11-Oct-2017 17:04:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 86
+[11-Oct-2017 17:04:49 UTC] PHP Stack trace:
+[11-Oct-2017 17:04:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:04:49 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:86
+[11-Oct-2017 17:04:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 88
+[11-Oct-2017 17:04:49 UTC] PHP Stack trace:
+[11-Oct-2017 17:04:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:04:49 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:88
+[11-Oct-2017 17:06:45 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 80
+[11-Oct-2017 17:06:45 UTC] PHP Stack trace:
+[11-Oct-2017 17:06:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:06:45 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:80
+[11-Oct-2017 17:06:45 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 82
+[11-Oct-2017 17:06:45 UTC] PHP Stack trace:
+[11-Oct-2017 17:06:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:06:45 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:82
+[11-Oct-2017 17:06:45 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 84
+[11-Oct-2017 17:06:45 UTC] PHP Stack trace:
+[11-Oct-2017 17:06:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:06:45 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:84
+[11-Oct-2017 17:06:45 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 86
+[11-Oct-2017 17:06:45 UTC] PHP Stack trace:
+[11-Oct-2017 17:06:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:06:45 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:86
+[11-Oct-2017 17:06:45 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 88
+[11-Oct-2017 17:06:45 UTC] PHP Stack trace:
+[11-Oct-2017 17:06:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:06:45 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:88
+[11-Oct-2017 17:07:09 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 80
+[11-Oct-2017 17:07:09 UTC] PHP Stack trace:
+[11-Oct-2017 17:07:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:07:09 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:80
+[11-Oct-2017 17:07:09 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 82
+[11-Oct-2017 17:07:09 UTC] PHP Stack trace:
+[11-Oct-2017 17:07:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:07:09 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:82
+[11-Oct-2017 17:07:09 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 84
+[11-Oct-2017 17:07:09 UTC] PHP Stack trace:
+[11-Oct-2017 17:07:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:07:09 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:84
+[11-Oct-2017 17:07:09 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 86
+[11-Oct-2017 17:07:09 UTC] PHP Stack trace:
+[11-Oct-2017 17:07:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:07:09 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:86
+[11-Oct-2017 17:07:09 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 88
+[11-Oct-2017 17:07:09 UTC] PHP Stack trace:
+[11-Oct-2017 17:07:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:07:09 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:88
+[11-Oct-2017 17:07:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 80
+[11-Oct-2017 17:07:56 UTC] PHP Stack trace:
+[11-Oct-2017 17:07:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:07:56 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:80
+[11-Oct-2017 17:07:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 82
+[11-Oct-2017 17:07:56 UTC] PHP Stack trace:
+[11-Oct-2017 17:07:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:07:56 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:82
+[11-Oct-2017 17:07:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 84
+[11-Oct-2017 17:07:56 UTC] PHP Stack trace:
+[11-Oct-2017 17:07:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:07:56 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:84
+[11-Oct-2017 17:07:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 86
+[11-Oct-2017 17:07:56 UTC] PHP Stack trace:
+[11-Oct-2017 17:07:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:07:56 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:86
+[11-Oct-2017 17:07:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 88
+[11-Oct-2017 17:07:56 UTC] PHP Stack trace:
+[11-Oct-2017 17:07:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:0
+[11-Oct-2017 17:07:56 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php:88
+[11-Oct-2017 18:02:56 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 3
+[11-Oct-2017 18:04:33 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/CST336/hw/hw3/confirmation.php on line 3

@@ -7,3 +7,25 @@
 [06-Sep-2017 22:46:41 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/CST336/labs/lab2/index.php on line 18
 [06-Sep-2017 22:46:41 UTC] PHP Stack trace:
 [06-Sep-2017 22:46:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab2/index.php:0
+[06-Oct-2017 20:28:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'tc'' in /home/ubuntu/workspace/CST336/labs/lab5/practice.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/practice.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/practice.php on line 6
+[06-Oct-2017 20:38:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'tc'' in /home/ubuntu/workspace/CST336/labs/lab5/practice.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/practice.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/practice.php on line 6
+[06-Oct-2017 20:38:59 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab5/practice.php on line 13
+[06-Oct-2017 20:38:59 UTC] PHP Stack trace:
+[06-Oct-2017 20:38:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab5/practice.php:0
+[06-Oct-2017 20:38:59 UTC] PHP   2. usersWithAnA() /home/ubuntu/workspace/CST336/labs/lab5/practice.php:34
+[06-Oct-2017 20:39:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab5/practice.php on line 13
+[06-Oct-2017 20:39:28 UTC] PHP Stack trace:
+[06-Oct-2017 20:39:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab5/practice.php:0
+[06-Oct-2017 20:39:28 UTC] PHP   2. usersWithAnA() /home/ubuntu/workspace/CST336/labs/lab5/practice.php:34
+[06-Oct-2017 20:40:18 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab5/practice.php on line 13
+[06-Oct-2017 20:40:18 UTC] PHP Stack trace:
+[06-Oct-2017 20:40:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab5/practice.php:0
+[06-Oct-2017 20:40:18 UTC] PHP   2. usersWithAnA() /home/ubuntu/workspace/CST336/labs/lab5/practice.php:33
