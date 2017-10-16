@@ -1,0 +1,33 @@
+html{
+        background:#262626;
+}
+
+form{
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+
+.devices{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    width: 600px;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    color: #0be8f7;
+}
+
+.php{
+    font-family: 'Lato', sans-serif;
+}
+
+iframe{
+    border:none;
+}
+
+body, h2{
+    font-family: 'Lato', sans-serif;
+    color:white;
+}

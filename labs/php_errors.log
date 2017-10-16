@@ -29,3 +29,553 @@ Stack trace:
 [06-Oct-2017 20:40:18 UTC] PHP Stack trace:
 [06-Oct-2017 20:40:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab5/practice.php:0
 [06-Oct-2017 20:40:18 UTC] PHP   2. usersWithAnA() /home/ubuntu/workspace/CST336/labs/lab5/practice.php:33
+[11-Oct-2017 20:42:21 UTC] PHP Fatal error:  Call to undefined function getDataBaseConnection() in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 4
+[11-Oct-2017 20:42:21 UTC] PHP Stack trace:
+[11-Oct-2017 20:42:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab5/index.php:0
+[13-Oct-2017 19:16:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''tc_device'
+            ORDER BY deviceType' at line 2' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(52): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 13
+[13-Oct-2017 19:16:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''tc_device'
+            ORDER BY deviceType' at line 2' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(52): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 13
+[13-Oct-2017 19:16:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''tc_device'
+            ORDER BY deviceType' at line 2' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(52): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 13
+[13-Oct-2017 19:18:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''tc_device'
+            ORDER BY deviceType' at line 2' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(52): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 13
+[13-Oct-2017 19:19:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''tc_device'
+            ORDER BY deviceType' at line 2' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(52): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 13
+[13-Oct-2017 19:21:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''tc_device'
+            ORDER BY deviceType' at line 2' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(53): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 13
+[13-Oct-2017 19:22:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''tc_device'
+            ORDER BY deviceType' at line 2' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(57): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 13
+[13-Oct-2017 19:22:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''tc_device'
+            ORDER BY deviceType' at line 2' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(53): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 13
+[13-Oct-2017 19:23:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''tc_device'
+            ORDER BY deviceType' at line 2' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(53): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 13
+[13-Oct-2017 19:27:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''tc_device'
+            ORDER BY deviceType' at line 2' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(54): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 14
+[13-Oct-2017 19:27:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''tc_device'
+            ORDER BY deviceType' at line 2' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(54): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 14
+[13-Oct-2017 19:28:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''tc_device'
+            ORDER BY deviceType' at line 2' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(75): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 14
+[13-Oct-2017 19:36:36 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 30
+[13-Oct-2017 19:37:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''tc_device'
+            ORDER BY deviceType' at line 2' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(79): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 14
+[13-Oct-2017 20:29:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(17): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(41): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php on line 17
+[13-Oct-2017 20:30:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(17): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(41): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php on line 17
+[13-Oct-2017 20:31:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(17): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(41): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php on line 17
+[13-Oct-2017 20:31:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(17): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(41): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php on line 17
+[13-Oct-2017 20:31:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(17): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(41): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php on line 17
+[13-Oct-2017 20:31:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(17): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(41): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php on line 17
+[13-Oct-2017 20:31:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(17): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(41): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php on line 17
+[13-Oct-2017 20:31:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(17): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(41): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php on line 17
+[13-Oct-2017 20:31:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(17): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(41): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php on line 17
+[13-Oct-2017 20:31:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(17): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(41): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php on line 17
+[13-Oct-2017 20:31:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(17): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(41): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php on line 17
+[13-Oct-2017 20:31:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(17): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(41): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php on line 17
+[13-Oct-2017 20:31:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(17): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(41): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php on line 17
+[13-Oct-2017 20:31:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(17): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(41): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php on line 17
+[13-Oct-2017 20:44:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(17): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(41): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php on line 17
+[16-Oct-2017 01:55:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(17): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(41): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php on line 17
+[16-Oct-2017 02:43:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''tc_checkout'
+            NATURAL JOIN tc_device
+            NATURAL JOIN tc_use' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(17): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(41): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php on line 17
+[16-Oct-2017 02:44:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''tc_checkout'
+            NATURAL JOIN tc_device
+            NATURAL JOIN tc_use' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(17): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(41): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php on line 17
+[16-Oct-2017 02:44:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''tc_checkout'
+            NATURAL JOIN tc_device
+            NATURAL JOIN tc_use' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(17): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(41): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php on line 17
+[16-Oct-2017 02:44:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''tc_checkout'
+            NATURAL JOIN tc_device
+            NATURAL JOIN tc_use' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(17): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php(41): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/checkoutHistory.php on line 17
+[16-Oct-2017 02:55:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceType = 'Select One'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 02:56:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceType = 'Select One'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 02:56:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%laptop%' AND deviceType = 'Select One'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 02:56:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%laptop%' AND deviceType = 'Laptop'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 02:56:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%laptop%' AND deviceType = 'Laptop'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:02:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceType = 'Select One'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:02:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceType = 'Select One'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:02:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceType = 'Select One'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:02:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceType = 'Select One'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:04:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%laptop%' AND deviceType = 'Dynamic Mics'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:04:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceType = 'Select One'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:28:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%laptop%' AND deviceType = 'Dynamic Mics'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:28:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%laptop%' AND deviceType = 'Laptop'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:31:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%laptop%' AND deviceType = 'Laptop''' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:34:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%laptop%' AND deviceType = 'Select One'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:34:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceType = 'Select One'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:34:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%laptop%' AND deviceType = 'Select One'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:36:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%laptop%'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:36:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%laptop%' AND deviceType = 'Select One'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:37:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%laptop%' AND deviceType = 'Select One'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:37:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%laptop%'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:39:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%mic%' AND deviceType = 'Microphone'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:39:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%mic%' AND deviceType = 'Microphone'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:40:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%mic%' AND deviceType = 'Microphone'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:40:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%mic%'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:41:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%mic%'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:41:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceType = 'Camera'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:43:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%laptop%' AND deviceType = 'Select One'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:43:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%%' AND deviceType = 'Camera'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:45:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceType = 'Dynamic Mics'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:45:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%mic%' AND deviceType = 'Dynamic Mics'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:46:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%pixel%' AND deviceType = 'Select One'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:47:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%pixel%' AND deviceType = 'Select One'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:47:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%laptop%' AND deviceType = 'Select One'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:51:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceType = 'Camera'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:51:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%laprop%'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:51:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%laptop%'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 03:51:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceName LIKE '%\'laptop\'%'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(120): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 71
+[16-Oct-2017 04:09:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:72
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(72): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(121): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 72
+[16-Oct-2017 04:09:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:72
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(72): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(121): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 72
+[16-Oct-2017 04:11:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:72
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(72): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(121): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 72
+[16-Oct-2017 04:11:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:72
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(72): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(121): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 72
+[16-Oct-2017 04:15:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc  AND deviceType = 'Select One'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:72
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(72): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(121): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 72
+[16-Oct-2017 04:16:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND deviceType = 'Laptop'' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:72
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(72): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(121): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 72
+[16-Oct-2017 04:19:16 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 61
+[16-Oct-2017 04:22:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:75
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(75): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(124): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 75
+[16-Oct-2017 04:22:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:75
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(75): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(124): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 75
+[16-Oct-2017 04:22:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:75
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(75): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(124): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 75
+[16-Oct-2017 04:24:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:75
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(75): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(124): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 75
+[16-Oct-2017 04:24:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:75
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(75): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(124): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 75
+[16-Oct-2017 04:25:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:75
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(75): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(124): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 75
+[16-Oct-2017 04:53:46 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 61
+[16-Oct-2017 04:53:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY deviceName ASC' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(126): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 77
+[16-Oct-2017 04:56:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY deviceName ASC' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:78
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(78): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(127): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 78
+[16-Oct-2017 04:56:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY deviceName ASC' at line 1' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:78
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(78): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(127): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 78
+[16-Oct-2017 05:11:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336/labs/lab5/index.php:81
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab5/index.php(81): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(130): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 81
+[16-Oct-2017 05:15:30 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 95
