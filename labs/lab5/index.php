@@ -123,5 +123,6 @@ function displayDevices(){
         </div>
         
         <iframe name="checkoutHistory" width="400" height="200"></iframe>
+        
     </body>
 </html>
