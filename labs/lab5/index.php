@@ -99,7 +99,7 @@ function displayDevices(){
             Device: <input type="text" name="deviceName" placeholder="Device Name"/>
             Type: 
             <select name="deviceType">
-                <option>Select One</option>
+                <option value="">Select One</option>
                 <?=getDeviceTypes()?>
             </select>
             

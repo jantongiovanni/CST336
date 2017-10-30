@@ -579,3 +579,92 @@ Stack trace:
 #2 {main}
   thrown in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 81
 [16-Oct-2017 05:15:30 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/CST336/labs/lab5/index.php on line 95
+[16-Oct-2017 07:05:19 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/CST336/dbConnection.php on line 21
+[16-Oct-2017 07:05:19 UTC] PHP Stack trace:
+[16-Oct-2017 07:05:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab5/index.php:0
+[16-Oct-2017 07:05:19 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/CST336/labs/lab5/index.php:5
+[16-Oct-2017 07:05:19 UTC] PHP   3. PDO->__construct() /home/ubuntu/workspace/CST336/dbConnection.php:21
+[16-Oct-2017 07:05:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/CST336/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/dbConnection.php(21): PDO->__construct('mysql:host=us-c...', '', '')
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(5): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/dbConnection.php on line 21
+[16-Oct-2017 07:06:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'ip-10-123-166-227.ec2.internal' (using password: NO)' in /home/ubuntu/workspace/CST336/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/dbConnection.php(21): PDO->__construct('mysql:host=us-c...', '', '')
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(5): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/dbConnection.php on line 21
+[16-Oct-2017 07:06:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'ip-10-44-181-66.ec2.internal' (using password: NO)' in /home/ubuntu/workspace/CST336/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/dbConnection.php(21): PDO->__construct('mysql:host=us-c...', '', '')
+#1 /home/ubuntu/workspace/CST336/labs/lab5/index.php(5): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/dbConnection.php on line 21
+[18-Oct-2017 19:54:12 UTC] PHP Catchable fatal error:  Object of class PDO could not be converted to string in /home/ubuntu/workspace/CST336/labs/lab6/loginProcess.php on line 7
+[18-Oct-2017 19:54:12 UTC] PHP Stack trace:
+[18-Oct-2017 19:54:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/loginProcess.php:0
+[18-Oct-2017 20:00:25 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/CST336/labs/lab6/loginProcess.php on line 29
+[18-Oct-2017 20:15:55 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/admin.php on line 5
+[18-Oct-2017 20:15:55 UTC] PHP Stack trace:
+[18-Oct-2017 20:15:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/admin.php:0
+[18-Oct-2017 20:16:33 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/admin.php on line 5
+[18-Oct-2017 20:16:33 UTC] PHP Stack trace:
+[18-Oct-2017 20:16:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/admin.php:0
+[18-Oct-2017 20:17:01 UTC] PHP Fatal error:  Call to undefined function displayUsers() in /home/ubuntu/workspace/CST336/labs/lab6/admin.php on line 26
+[18-Oct-2017 20:17:01 UTC] PHP Stack trace:
+[18-Oct-2017 20:17:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/admin.php:0
+[18-Oct-2017 20:17:37 UTC] PHP Fatal error:  Call to undefined function displayUsers() in /home/ubuntu/workspace/CST336/labs/lab6/admin.php on line 26
+[18-Oct-2017 20:17:37 UTC] PHP Stack trace:
+[18-Oct-2017 20:17:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/admin.php:0
+[18-Oct-2017 20:18:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/admin.php on line 10
+[18-Oct-2017 20:18:38 UTC] PHP Stack trace:
+[18-Oct-2017 20:18:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/admin.php:0
+[18-Oct-2017 20:18:38 UTC] PHP   2. displayUsers() /home/ubuntu/workspace/CST336/labs/lab6/admin.php:29
+[18-Oct-2017 20:24:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/CST336/labs/lab6/admin.php on line 14
+[18-Oct-2017 20:24:42 UTC] PHP Stack trace:
+[18-Oct-2017 20:24:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/admin.php:0
+[18-Oct-2017 20:24:42 UTC] PHP   2. displayUsers() /home/ubuntu/workspace/CST336/labs/lab6/admin.php:31
+[18-Oct-2017 20:32:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+        AND   password = 'da39a3ee5e6b4b0d3255bfef95601890afd80709'' at line 3' in /home/ubuntu/workspace/CST336/labs/lab6/loginProcess.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/loginProcess.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/loginProcess.php on line 19
+[18-Oct-2017 20:32:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'da39a3ee5e6b4b0d3255bfef95601890afd80709'' at line 3' in /home/ubuntu/workspace/CST336/labs/lab6/loginProcess.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/loginProcess.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/loginProcess.php on line 19
+[25-Oct-2017 19:41:37 UTC] PHP Fatal error:  Call to undefined function getDepartmentInfo() in /home/ubuntu/workspace/CST336/labs/lab6/newUser.php on line 36
+[25-Oct-2017 19:41:37 UTC] PHP Stack trace:
+[25-Oct-2017 19:41:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/newUser.php:0
+[25-Oct-2017 19:44:59 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/CST336/labs/lab6/newUser.php on line 18
+[25-Oct-2017 19:49:58 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/CST336/labs/lab6/newUser.php on line 59
+[25-Oct-2017 20:23:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/CST336/labs/lab6/admin.php on line 50
+[25-Oct-2017 20:23:02 UTC] PHP Stack trace:
+[25-Oct-2017 20:23:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/admin.php:0
+[25-Oct-2017 20:23:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/CST336/labs/lab6/admin.php on line 50
+[25-Oct-2017 20:23:06 UTC] PHP Stack trace:
+[25-Oct-2017 20:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/admin.php:0
+[25-Oct-2017 20:23:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/CST336/labs/lab6/admin.php on line 50
+[25-Oct-2017 20:23:10 UTC] PHP Stack trace:
+[25-Oct-2017 20:23:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/admin.php:0
+[25-Oct-2017 20:23:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/CST336/labs/lab6/admin.php on line 50
+[25-Oct-2017 20:23:23 UTC] PHP Stack trace:
+[25-Oct-2017 20:23:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/admin.php:0
+[25-Oct-2017 20:25:53 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/admin.php on line 32
+[25-Oct-2017 20:25:53 UTC] PHP Stack trace:
+[25-Oct-2017 20:25:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/admin.php:0
+[25-Oct-2017 20:25:53 UTC] PHP   2. displayUsers() /home/ubuntu/workspace/CST336/labs/lab6/admin.php:62
+[25-Oct-2017 20:26:19 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/admin.php on line 34
+[25-Oct-2017 20:26:19 UTC] PHP Stack trace:
+[25-Oct-2017 20:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/admin.php:0
+[25-Oct-2017 20:26:19 UTC] PHP   2. displayUsers() /home/ubuntu/workspace/CST336/labs/lab6/admin.php:64
+[27-Oct-2017 19:41:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE userID = '14'' at line 4' in /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php on line 52
+[27-Oct-2017 20:50:59 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/CST336/labs/lab6/updateUser.php on line 105
