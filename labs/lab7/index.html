@@ -10,7 +10,9 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
-     
+        
+        
+        
         
     </head>
     <body>
@@ -23,32 +25,43 @@
             
             <div id="word"></div>
             <div id="letters">
-                <!--<input type="text" id="letterBox"/>
-                <button id="letterBtn" onclick="updateImage()">Submit</button>-->
                 
+              <!--
+                <input type="text" id="letterBox" />
+                <button id="letterBtn">Submit!</button>
+               -->
+              
             </div>
             
             <div id="man">
                <img src="img/stick_0.png" id="hangImg">
             </div>
+            
+            <div id="won">
+                <h2>You Won!</h2>
+                <button class="replayBtn btn btn-btn-success">Play Again</button>
+            </div>
+            <div id="lost">
+                <h2>You Lost</h2>
+                <button class="replayBtn btn btn-btn-warning">Play Again</button>
+            </div>
         </div>
 
     <script>
     
-        $("#letterBtn").click(function(){
-            var boxVal = $("#letterBox").val();
-            alert(boxVal);
+            $("#letterBtn").click( function(){ 
+               // updateImage();
+               
+               var boxVal = $("#letterBox").val();
+               alert(boxVal);
+               
+            } );
             
-        });
     
- 
-    
-         function updateImage() {
+            function updateImage() {
                 
-                //document.getElementById("man").innerHTML = "<img src='img/stick_5.png' >" javascript
-                
-                $("#man").html("<img src='img/stick_6.png' >"); //jquery
-                
+                //document.getElementById("man").innerHTML = "<img src='img/stick_5.png' >";
+                $("img").attr("src","img/stick_3.png");
             }
     
             
@@ -56,10 +69,17 @@
             var selectedHint = "";
             var board = "";
             var remainingGuesses = 6;
-            var words = ["snake", "monkey", "beetle", "octopus", "horse"];
-              var alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 
+           // var words = ["snake", "monkey", "beetle", "octopus", "horse"];
+            var words = [   {word: "snake", hint: "It's a reptile"},
+                            {word: "monkey", hint: "It's a mammal"},
+                            {word: "beetle", hint: "It's a insect"},
+                            {word: "octopus", hint: "It lives in the ocean"},
+                            {word: "horse", hint: "It's a mammal"}];
+                            
+            var alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 
                             'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 
                             'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+
             
             startGame();
             
@@ -69,20 +89,39 @@
                 initBoard();
                 updateBoard();
                 createLetters();
+                
+            }
+            
+            function endGame(win) {
+                $("#letters").hide();
+                if(win){
+                    $('#won').show();
+                }
+                else {
+                    $('#lost').show();
+                }
             }
             
             function pickWord() {
                 var randomInt = Math.floor( Math.random() * words.length );
-                selectedWord = words[randomInt];
-                //console.log(selectedWord);
+                selectedWord = words[randomInt].word.toUpperCase();
+                selectedHint = words[randomInt].hint;
+
             }
             
             function updateBoard() {
+                $("#word").empty();
+                
                 for (var letter of board) {
                     document.getElementById("word").innerHTML += letter + " ";
                 }
+                $("#word").append("<br />");
+                $("#word").append("<span class='hint'>Hint: " + selectedHint + "</span>")
             }
             
+            function updateMan(){
+                $("#hangImg").attr("src", "img/stick_" + (6 - remainingGuesses) + ".png");
+            }
             function initBoard() {
                 
                 for (var i=0; i < selectedWord.length; i++ ) {
@@ -96,39 +135,79 @@
             }
             
             function createLetters(){
-                //this is my function there are many like it but this one is mine
-                for(var letter of alphabet){
+                
+                for (var letter of alphabet) {
                     
                     $("#letters").append("<button class='letter' id='"+letter+"'>" + letter + "</button>");
-                    
                 }
+                
             }
             
-            function checkLetter(letter){
-                var positions= [];
+            //if letter exists in selected word
+            function checkLetter(letter) {
                 
-                for(var i =0; i<selectedWord; i++){
-                    if (letter == selectedWord[i]){
+                var positions = new Array();
+                
+                //put all positions the letter exists in an array
+                for (var i=0; i < selectedWord.length; i++) {
+                    
+                    if (letter == selectedWord[i]) {
+                        
                         positions.push(i);
+                        
                     }
                     
                 }
                 
+                if (positions.length > 0) {
+                    
+                    updateWord(positions, letter);
+                    if(!board.includes('_')){
+                        endGame(true);
+                    }
+                    
+                } else {
+                    
+                    remainingGuesses--;
+                    $("#hangImg").attr("src", "img/stick_" + (6 - remainingGuesses) + ".png" );
+                }
+                
+                if (remainingGuesses <= 0){
+                    endGame(false);
+                }
+                
             }
             
-            if(positions.length > 0){
-                updateWord(positions, letter);
+            function updateWord(positions, letter){
+                for (var pos of positions){
+                    board = replaceAt(board, pos, letter)
+                }
+                updateBoard();
             }
-            else{
-                remainingGuesses--;
-                $("#hangImg").attr("src", "img/stick_" + (6-remainingGuesses) + ".png");
+            
+            function replaceAt(str, index, value){
+                return str.substr(0, index) + value +str.substr(index + value.length);
             }
-                     
-            $("button").click( function(){ 
+            
+            function disableButton(btn){
+            btn.prop("disabled", true);
+            btn.attr("class", "btn btn-danger")
+            }
+            //events
+            
+            $(".letter").click( function(){ 
                 //alert($(this).attr("id"));
+                //console.log($(this).attr("id"));
                 checkLetter( $(this).attr("id") );
-            });
+                disableButton($(this));
                 
+            });
+            
+            $(".replayBtn").on("click", function() {
+                location.reload();
+            });
+
+            
         </script>
 
     </body>
