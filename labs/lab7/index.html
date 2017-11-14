@@ -24,6 +24,9 @@
             </header>
             
             <div id="word"></div>
+            <div id="hint">
+                <button onclick="hint()">Hint</button>
+            </div>
             <div id="letters">
                 
               <!--
@@ -45,6 +48,8 @@
                 <h2>You Lost</h2>
                 <button class="replayBtn btn btn-btn-warning">Play Again</button>
             </div>
+            
+            
         </div>
 
     <script>
@@ -57,6 +62,10 @@
                
             } );
             
+            function hint(){
+                $("#word").append("<span class='hint'>Hint: " + selectedHint + "</span>")
+                $("#hint").hide()
+            }
     
             function updateImage() {
                 
@@ -116,7 +125,6 @@
                     document.getElementById("word").innerHTML += letter + " ";
                 }
                 $("#word").append("<br />");
-                $("#word").append("<span class='hint'>Hint: " + selectedHint + "</span>")
             }
             
             function updateMan(){
