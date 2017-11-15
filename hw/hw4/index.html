@@ -11,7 +11,6 @@
 			var enemies = new Array();
 			var gameTimer;
 			
-			var Image;
 
 			var leftArrowDown = false;
 			var rightArrowDown = false;
@@ -67,8 +66,8 @@
 				gameScreen.appendChild(ship);
 				
 				for(var i=0; i<10; i++){
-					var enemy = new Image(); //this is the error 
-					enemy.className = new 'gameObject';
+					var enemy = new Image(); 
+					enemy.className = 'gameObject';
 					enemy.style.width = '64px';
 					enemy.style.height = '64px';
 					enemy.src = 'enemyShip.gif';
@@ -233,10 +232,10 @@
 				z-index: 1;
 			}
 
+			body{background-color: black;}
 		</style>
 	</head>
 	<body onload="init()">
 		<div id="gameScreen"></div>
-		<div id="output">degugger</div>
 	</body>
 </html>
