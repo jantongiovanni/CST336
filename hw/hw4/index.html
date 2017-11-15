@@ -65,7 +65,7 @@
 
 				gameScreen.appendChild(ship);
 				
-				for(var i=0; i<10; i++){
+				for(var i=0; i<100; i++){
 					var enemy = new Image(); 
 					enemy.className = 'gameObject';
 					enemy.style.width = '64px';
@@ -192,7 +192,7 @@
 				for(var i=0; i<enemies.length; i++)
 				{
 					var newY = parseInt(enemies[i].style.top);
-					if(newY > GS_HEIGHT) placeEnemyShip([i]);
+					if(newY > GS_HEIGHT) placeEnemyShip(enemies[i]);
 					else enemies[i].style.top = newY + enemies[i].speed + 'px';
 					
 					if(hittest(enemies[i], ship)){
@@ -233,9 +233,16 @@
 			}
 
 			body{background-color: black;}
+			#output{
+				color: white;
+			}
 		</style>
 	</head>
 	<body onload="init()">
 		<div id="gameScreen"></div>
+		<div id="output">Use arrow keys to move left and right <br /> Use spacebar to fire</div>
+		<FORM>
+			 <INPUT TYPE="button" onClick="history.go(0)" VALUE="Restart">
+		</FORM>
 	</body>
 </html>
