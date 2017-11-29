@@ -1,6 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <style>
+        ol {
+    background: #ff9999;
+    padding: 20px;
+}
+
+ul {
+    background: #3399ff;
+    padding: 20px;
+}
+
+ol li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+ul li {
+    background: #cce5ff;
+    margin: 5px;
+}
+        
+        
+    </style>    
+        
+        
+        
     <title>Youtube list</title>
     
     <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
@@ -48,6 +75,8 @@
                             console.log(item);
                             videoTitle = item.snippet.title;
                             videoId = item.snippet.resourceId.videoId;
+                           // videoDesc = item.snippet.description;
+                            
                             
                             output = '<li><iframe height="'+vidHeight+'" width="'+vidWidth+'" src=\"//www.youtube.com/embed/'+videoId+'\"></iframe></li>';
                             
@@ -73,7 +102,7 @@
         
     </head>
     <body id="body">
-        <h1>Youtube channel video list</h1>
+        <h1>Youtube channel upload list</h1>
         
         <form>
             <fieldset>
@@ -84,7 +113,7 @@
             
         </form>
 
-        <ul id="results"></ul>
+        <ul id="results" style="list-style-type:none"></ul>
         
 
        
