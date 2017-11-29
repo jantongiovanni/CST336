@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Youtube list</title>
+    
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script>
+    //var channelName = 'GoogleDevelopers'
+    var channelName = document.getElementById('nameId').value;
+    var vidWidth = '500'
+    var vidHeight = '280'
+    var vidResults = '5'
+    var idName = 'UCboMX_UNgaPBsUOIgasn3-Q'
+   // var button = document.getElementById("searchButton"),
+   // value = button.form.name.value;
+    
+    
+    //button.onclick = function(){
+    function vidList(){
+        
+        $(document).ready(function(){
+          $.get(  
+            "https://www.googleapis.com/youtube/v3/channels", {
+                part: 'contentDetails',
+                forUsername: document.getElementById('nameId').value,//channelName,
+                key: 'AIzaSyDnF9VCGeeOFIZEgI-RAIz_DiZVCyciRes'},
+                function(data){
+                    $.each(data.items, function(i, item){
+                        console.log(item);
+                        pid = item.contentDetails.relatedPlaylists.uploads;
+                        getVids(pid);
+                        
+                    })
+                }
+        );
+        
+        function getVids(pid){
+               $.get(  
+                "https://www.googleapis.com/youtube/v3/playlistItems", {
+                    part: 'snippet',
+                    maxResults: vidResults,
+                    playlistId: pid,
+                    key: 'AIzaSyDnF9VCGeeOFIZEgI-RAIz_DiZVCyciRes'},
+                    function(data){
+                        var output;
+                      $("ul").empty();
+                        $.each(data.items, function(i, item){
+                            console.log(item);
+                            videoTitle = item.snippet.title;
+                            videoId = item.snippet.resourceId.videoId;
+                            
+                            output = '<li><iframe height="'+vidHeight+'" width="'+vidWidth+'" src=\"//www.youtube.com/embed/'+videoId+'\"></iframe></li>';
+                            
+                            //append to results list
+                            $('#results').append(output);
+                        
+                    })
+                }
+        );
+            
+        }
+        
+        
+        });
+    }
+        //$("#name".val())
+    
+    </script>
+
+        
+        
+        
+        
+    </head>
+    <body id="body">
+        <h1>Youtube channel video list</h1>
+        
+        <form>
+            <fieldset>
+                <input type = "text" id = "nameId">
+                <input type = "button" value = "Search" id = "searchButton" onclick="vidList()">                
+                
+            </fieldset>
+            
+        </form>
+
+        <ul id="results"></ul>
+        
+
+       
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    </body>
+</html>

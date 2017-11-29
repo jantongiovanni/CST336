@@ -8,9 +8,8 @@
 			var bullets;
 			
 			var ship;
-			var enemies = new Array();
+
 			var gameTimer;
-			
 
 			var leftArrowDown = false;
 			var rightArrowDown = false;
@@ -50,11 +49,10 @@
 				bullets.style.height = gameScreen.style.height;
 				bullets.style.left = '0px';
 				bullets.style.top = '0px';
-
 				gameScreen.appendChild(bullets);
-
-				output = document.getElementById('output');
 				
+				output = document.getElementById('output');
+
 				ship = document.createElement('IMG');
 				ship.src = 'ship.gif';
 				ship.className = 'gameObject';
@@ -64,18 +62,6 @@
 				ship.style.left = '366px';
 
 				gameScreen.appendChild(ship);
-				
-				for(var i=0; i<100; i++){
-					var enemy = new Image(); 
-					enemy.className = 'gameObject';
-					enemy.style.width = '64px';
-					enemy.style.height = '64px';
-					enemy.src = 'enemyShip.gif';
-					gameScreen.appendChild(enemy);
-					placeEnemyShip(enemy);
-					enemies[i] = enemy;
-				}
-				
 	
 				gameTimer = setInterval(gameloop, 50);
 			}
@@ -85,7 +71,7 @@
 				var bulletHeight = 10;
 				var bullet = document.createElement('DIV');
 				bullet.className = 'gameObject';
-				bullet.style.backgroundColor = 'green';
+				bullet.style.backgroundColor = 'yellow';
 				bullet.style.width = bulletWidth;
 				bullet.style.height = bulletHeight;
 				bullet.speed = 20;
@@ -93,54 +79,6 @@
 				var shipX = parseInt(ship.style.left) + parseInt(ship.style.width)/2;
 				bullet.style.left = (shipX - bulletWidth/2) + 'px';
 				bullets.appendChild(bullet);
-			}
-
-			function placeEnemyShip(e){
-				e.speed = Math.floor(Math.random()*10) + 6;
-				var maxX = GS_WIDTH - parseInt(e.style.width);
-				var newX = Math.floor(Math.random()*maxX);
-				e.style.left = newX + 'px';
-				
-				var newY = Math.floor(Math.random()*600)-1000;
-				e.style.top = newY + 'px';
-			}
-			
-			function hittest(a,b){
-				var aW = parseInt(a.style.width);
-				var aH = parseInt(a.style.height);
-				
-				var aX =parseInt(a.style.left) + aW/2;
-				var aY =parseInt(a.style.top) + aH/2;
-				
-				var aR = (aW + aH) / 4;
-				
-				var bW = parseInt(b.style.width);
-				var bH = parseInt(b.style.height);
-				
-				var bX = parseInt(b.style.left) + bW/2;
-				var bY = parseInt(b.style.top) + bH/2
-				
-				var bR = (bW + bH) / 4;
-				
-				var minDistance = aR + bR;
-				
-				var cXs = (aX - bX) * (aX - bX);
-				var cYs = (aY - bY) * (aY - bY);
-				var distance = Math.sqrt(cXs + cYs);
-				if(distance < minDistance) return true;
-				else return false;
-				
-			}
-			
-			function explode(obj){
-				var explosion = document.createElement('IMG');
-				explosion.src = 'explosion.gif?x=' + Date.now();
-				explosion.className = 'gameObject';
-				explosion.style.width = obj.style.width;
-				explosion.style.height = obj.style.height;
-				explosion.style.left = obj.style.left;
-				explosion.style.top = obj.style.top;
-				gameScreen.appendChild(explosion);
 			}
 
 			function gameloop(){
@@ -169,44 +107,10 @@
 					if(newX <  maxX) ship.style.left = newX + 20 + 'px';
 					else ship.style.left = maxX + 'px';
 				}
-				
-				var b = bullets.children;
-				for(var i=0; i<b.length; i++){
-					var newY = parseInt(b[i].style.top) - b[i].speed;
-					if(newY < 0) bullets.removeChild(b[i]);
-					else {
-						b[i].style.top = newY + 'px';
-						for(var j=0; j<enemies.length; j++){
-							if(hittest(b[i],enemies[j])){
-								bullets.removeChild(b[i]);
-								explode(enemies[j]);
-								placeEnemyShip(enemies[j]);
-								break;
-							}
-						}
-						
-					}
-				}
-				//ouput.innerHTML = b.length;
-				
-				for(var i=0; i<enemies.length; i++)
-				{
-					var newY = parseInt(enemies[i].style.top);
-					if(newY > GS_HEIGHT) placeEnemyShip(enemies[i]);
-					else enemies[i].style.top = newY + enemies[i].speed + 'px';
-					
-					if(hittest(enemies[i], ship)){
-						explode(ship);
-						explode(enemies[i]);
-						ship.style.top = '-1000px';
-						placeEnemyShip(enemies[i]);
-					}
-				}
-				
 			}
 			
 			document.addEventListener('keypress', function(event) {
-			    if(event.charCode==32) fire();
+			    if(event.keyCode==32) fire();
 			});
 
 			document.addEventListener('keydown', function(event){
@@ -232,17 +136,10 @@
 				z-index: 1;
 			}
 
-			body{background-color: black;}
-			#output{
-				color: white;
-			}
 		</style>
 	</head>
 	<body onload="init()">
 		<div id="gameScreen"></div>
-		<div id="output">Use arrow keys to move left and right <br /> Use spacebar to fire</div>
-		<FORM>
-			 <INPUT TYPE="button" onClick="history.go(0)" VALUE="Restart">
-		</FORM>
+		<div id="output">degugger</div>
 	</body>
 </html>

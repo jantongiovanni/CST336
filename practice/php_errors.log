@@ -32,3 +32,19 @@
 [08-Nov-2017 05:03:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/product/index.php:0
 [08-Nov-2017 05:03:55 UTC] PHP   2. DBController->runQuery() /home/ubuntu/workspace/CST336/practice/product/index.php:95
 [08-Nov-2017 05:03:55 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CST336/practice/product/dbcontroller.php:20
+[29-Nov-2017 04:10:19 UTC] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'blog_samples' in /home/ubuntu/workspace/CST336/practice/product/dbcontroller.php on line 14
+[29-Nov-2017 04:10:19 UTC] PHP Stack trace:
+[29-Nov-2017 04:10:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/product/index.php:0
+[29-Nov-2017 04:10:19 UTC] PHP   2. DBController->__construct() /home/ubuntu/workspace/CST336/practice/product/index.php:4
+[29-Nov-2017 04:10:19 UTC] PHP   3. DBController->connectDB() /home/ubuntu/workspace/CST336/practice/product/dbcontroller.php:10
+[29-Nov-2017 04:10:19 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/CST336/practice/product/dbcontroller.php:14
+[29-Nov-2017 04:10:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/CST336/practice/product/dbcontroller.php on line 19
+[29-Nov-2017 04:10:19 UTC] PHP Stack trace:
+[29-Nov-2017 04:10:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/product/index.php:0
+[29-Nov-2017 04:10:19 UTC] PHP   2. DBController->runQuery() /home/ubuntu/workspace/CST336/practice/product/index.php:95
+[29-Nov-2017 04:10:19 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/CST336/practice/product/dbcontroller.php:19
+[29-Nov-2017 04:10:19 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CST336/practice/product/dbcontroller.php on line 20
+[29-Nov-2017 04:10:19 UTC] PHP Stack trace:
+[29-Nov-2017 04:10:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/product/index.php:0
+[29-Nov-2017 04:10:19 UTC] PHP   2. DBController->runQuery() /home/ubuntu/workspace/CST336/practice/product/index.php:95
+[29-Nov-2017 04:10:19 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/CST336/practice/product/dbcontroller.php:20
