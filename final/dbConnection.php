@@ -1,10 +1,9 @@
 <?php
-// Add argument for a different database or copy and paste everything needed for the exam
-function getDatabaseConnection() {
+function getDatabaseConnection($dbname = 'games') {
     
     
     $host = 'localhost';//cloud 9
-    $dbname = 'games';
+    //$dbname = 'games';
     $username = 'root';
     $password = '';
     

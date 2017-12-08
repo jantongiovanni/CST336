@@ -1,5 +1,4 @@
 <?php
-
     include("dbConnection.php");
     $conn = getDatabaseConnection();
     $sql = "DELETE FROM games_list
@@ -9,5 +8,4 @@
     $stmt->execute();
     
     header("Location: admin.php");
-    
 ?>

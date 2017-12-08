@@ -1,8 +1,6 @@
 <?php
-
 include 'dbConnection.php';
 $dbConn = getDatabaseConnection("midterm");
-
 
 echo "Average Price of all games: ";
 $sql= "SELECT AVG(gamePrice) FROM `games_list`";
