@@ -15,3 +15,164 @@
 [14-Nov-2017 05:01:26 UTC] PHP Stack trace:
 [14-Nov-2017 05:01:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/CST336-catalog/checkout.php:0
 [14-Nov-2017 05:01:26 UTC] PHP   2. displayItems() /home/ubuntu/workspace/CST336/CST336-catalog/checkout.php:54
+[07-Dec-2017 23:16:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'games.el_users' doesn't exist' in /home/ubuntu/workspace/CST336/final/login.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/login.php(18): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/final/login.php(79): loginError()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/login.php on line 18
+[07-Dec-2017 23:16:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'games.el_users' doesn't exist' in /home/ubuntu/workspace/CST336/final/login.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/login.php(18): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/final/login.php(79): loginError()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/login.php on line 18
+[07-Dec-2017 23:17:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'games.game_user' doesn't exist' in /home/ubuntu/workspace/CST336/final/login.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/login.php(18): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/final/login.php(79): loginError()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/login.php on line 18
+[07-Dec-2017 23:17:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'games.game_user' doesn't exist' in /home/ubuntu/workspace/CST336/final/login.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/login.php(18): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336/final/login.php(79): loginError()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/login.php on line 18
+[08-Dec-2017 03:45:43 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/final/admin.php on line 11
+[08-Dec-2017 03:45:43 UTC] PHP Stack trace:
+[08-Dec-2017 03:45:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/final/admin.php:0
+[08-Dec-2017 03:45:43 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/final/admin.php on line 11
+[08-Dec-2017 03:45:43 UTC] PHP Stack trace:
+[08-Dec-2017 03:45:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/final/admin.php:0
+[08-Dec-2017 03:45:43 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/final/admin.php on line 12
+[08-Dec-2017 03:45:43 UTC] PHP Stack trace:
+[08-Dec-2017 03:45:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/final/admin.php:0
+[08-Dec-2017 03:45:49 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/final/admin.php on line 11
+[08-Dec-2017 03:45:49 UTC] PHP Stack trace:
+[08-Dec-2017 03:45:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/final/admin.php:0
+[08-Dec-2017 03:45:49 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/final/admin.php on line 11
+[08-Dec-2017 03:45:49 UTC] PHP Stack trace:
+[08-Dec-2017 03:45:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/final/admin.php:0
+[08-Dec-2017 03:45:49 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/final/admin.php on line 12
+[08-Dec-2017 03:45:49 UTC] PHP Stack trace:
+[08-Dec-2017 03:45:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/final/admin.php:0
+[08-Dec-2017 03:46:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'games.tc_user' doesn't exist' in /home/ubuntu/workspace/CST336/final/admin.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/admin.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/final/admin.php(68): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/admin.php on line 21
+[08-Dec-2017 04:49:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'genreName' cannot be null' in /home/ubuntu/workspace/CST336/final/addGame.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/addGame.php(46): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/addGame.php on line 46
+[08-Dec-2017 04:49:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'genreName' cannot be null' in /home/ubuntu/workspace/CST336/final/addGame.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/addGame.php(46): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/addGame.php on line 46
+[08-Dec-2017 04:49:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'genreName' cannot be null' in /home/ubuntu/workspace/CST336/final/addGame.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/addGame.php(46): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/addGame.php on line 46
+[08-Dec-2017 04:50:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'genreName' cannot be null' in /home/ubuntu/workspace/CST336/final/addGame.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/addGame.php(46): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/addGame.php on line 46
+[08-Dec-2017 05:06:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/CST336/final/updateGame.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/updateGame.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/final/updateGame.php(43): getGameInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/updateGame.php on line 32
+[08-Dec-2017 05:06:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/CST336/final/updateGame.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/updateGame.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/final/updateGame.php(43): getGameInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/updateGame.php on line 32
+[08-Dec-2017 05:07:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/CST336/final/updateGame.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/updateGame.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/final/updateGame.php(43): getGameInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/updateGame.php on line 32
+[08-Dec-2017 05:08:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/CST336/final/updateGame.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/updateGame.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/final/updateGame.php(43): getGameInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/updateGame.php on line 32
+[08-Dec-2017 05:13:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/CST336/final/updateGame.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/updateGame.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/final/updateGame.php(43): getGameInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/updateGame.php on line 32
+[08-Dec-2017 05:13:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/CST336/final/updateGame.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/updateGame.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/CST336/final/updateGame.php(43): getGameInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/updateGame.php on line 32
+[08-Dec-2017 05:34:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336/final/updateGame.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/updateGame.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/updateGame.php on line 57
+[08-Dec-2017 05:41:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336/final/updateGame.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/updateGame.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/updateGame.php on line 57
+[08-Dec-2017 08:23:03 UTC] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/ubuntu/workspace/CST336/final/reports.php on line 9
+[08-Dec-2017 09:07:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336/final/updateGame.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/updateGame.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/updateGame.php on line 57
+[08-Dec-2017 09:07:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336/final/updateGame.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/updateGame.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/updateGame.php on line 57
+[08-Dec-2017 09:08:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336/final/updateGame.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/updateGame.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/updateGame.php on line 57
+[08-Dec-2017 09:08:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336/final/updateGame.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/updateGame.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/updateGame.php on line 57
+[08-Dec-2017 09:08:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336/final/updateGame.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/updateGame.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/updateGame.php on line 57
+[08-Dec-2017 09:08:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336/final/updateGame.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/updateGame.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/updateGame.php on line 57
+[08-Dec-2017 09:58:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336/final/updateGame.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/updateGame.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/updateGame.php on line 57
+[08-Dec-2017 16:22:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336/final/updateGame.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/updateGame.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/updateGame.php on line 57
+[08-Dec-2017 16:28:15 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/CST336/final/updateGame.php on line 61
+[08-Dec-2017 16:31:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336/final/updateGame.php:64
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final/updateGame.php(64): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/final/updateGame.php on line 64

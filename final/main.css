@@ -1,0 +1,15 @@
+.game{
+    background-color: #152B42;
+    text-align: left;
+    width: 500px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    border-radius: 5px;
+    margin: 0 auto;
+    color: white;
+}
+
+summary, p {
+    font-size: 150%;
+}
